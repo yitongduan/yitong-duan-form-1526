@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+.wrapper {
+    max-width: 50rem;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+fieldset {
+  background: #F5F5F5;
+  border: 1px solid #ddd;
+}
+
+legend {
+    background-color: white;
+     border: solid 1px black;
+    padding: 10px;
+    font-size: 2rem;
+   font-family:"arial", Helvetica, Helvetica Neue, sans-serif;
+}
+
+form {
+    font-size: 1rem;
+    font-family:"Helvetica", arial, Helvetica Neue, sans-serif;
+}
+
+input {
+    width: 100%;
+    margin-top: 10px;
+  
+}
+
+
+
+.box {
+   
+    padding-top: 20px;
+}
+
+.message {
+    width: 100%;
+    padding-top: 20px;
+    font-size: 1rem;
+}
+
+label {
+    font-size: 1rem;
+    
+}
+
+#collect {
+    background-color: #6495ED;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px; 
+    font-size: 1rem;
+}
+
+.cleafix{
+    clear: both;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 10px;
+    
+}
+
+/*for tablet or desktop*/
+@media only screen and (min-width: 25rem) {
+    #collect{
+        width: auto;
+        padding: 10px 20px;
+    }
+   
+    .box {
+        display: inline-block;
+        float: left;
+        width: 49%;
+    }
+    
+    .margin-right{
+        margin-right: 2%;
+    }    
+    
+}
+
+
+
+
+
